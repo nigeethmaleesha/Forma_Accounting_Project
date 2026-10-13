@@ -1,0 +1,12 @@
+<?php
+// Rename to config.local.php and keep this file OUTSIDE public/.
+// Do not commit credentials or actual customer enquiries.
+return [
+    'BRAND_NAME' => 'Forma Advisory', // Replace with legally approved name.
+    'SITE_MODE' => 'preview',        // Switch to production ONLY when fully approved.
+    'SITE_URL' => '',               // e.g. https://www.your-accounting-firm.com.au
+    'MAIL_MODE' => 'disabled',       // 'log' for local QA; 'mail' on configured PHP host; 'resend' via API.
+    'CONTACT_TO_EMAIL' => '',       // Your business recipient inbox.
+    'CONTACT_FROM_EMAIL' => '',     // Sender matching an authenticated domain.
+    'RESEND_API_KEY' => '',         // Only for the 'resend' delivery option.
+];

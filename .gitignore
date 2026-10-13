@@ -1,0 +1,8 @@
+/config.local.php
+/storage/*
+!/storage/.gitignore
+!/storage/limits/
+/storage/limits/*
+!.gitkeep
+.DS_Store
+*.zip
