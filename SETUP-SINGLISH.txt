@@ -1,0 +1,39 @@
+TRENDY TAX SOLUTIONS — SINGLISH QUICK START
+===========================================
+
+1. VERCEL PREVIEW
+   - Full project folder eka GitHub repo ekakata upload karanna.
+   - Vercel New Project -> repository eka select karanna.
+   - Framework Preset = Other. Project root folder ehema thiyanna.
+   - vercel.json nisa preview/ folder eka static website widihata deploy wenawa.
+   - PHP template/content edit kaloth: php tools/build-preview.php
+     command eka run karala, preview folder eke changes commit karanna.
+
+2. LOCAL PREVIEW
+   - Full ZIP extract karanna.
+   - php tools/build-preview.php
+   - cd preview
+   - python -m http.server 8000
+   - Browser: http://localhost:8000
+
+3. PHP LIVE HOST
+   - PHP 8.1+ / MySQL / HTTPS support one.
+   - server/schema.sql phpMyAdmin ekata import karanna.
+   - .env.example copy karala .env hadanna; database details saha SITE_URL update karanna.
+   - PRIVATE_STORAGE_PATH = public_html eken pita secure folder path ekak denna.
+   - Code eka PHP host ekata upload karanna.
+   - Command line eken admin account ekak create karanna:
+     php tools/create_admin.php email@domain.com "Admin Name" "StrongUniquePassword"
+   - /admin/ eken blog posts/client accounts/documents manage karanna.
+   - /portal/ eken clients lata sign in wenna puluwan.
+   - Contact form, email, portal security, backups saha privacy policy production eke test karanna.
+
+4. IMPORTANT
+   - Vercel preview eke forms/login REAL data handle karanne nehe.
+   - Client dunna gallery photos nathi nisa placeholders use karala thiyenawa.
+   - Awards/member logos publish karanna kalin clientgen permission/status confirm karanna.
+   - Unindexed link ekata content/link thama labune nehe.
+   - Production use ekata security review saha Australian privacy/legal review awashyai.
+
+Detailed technical instructions: README.md
+Client approval notes: CLIENT-REVIEW-NOTES.md

@@ -1,0 +1,7 @@
+.env
+*.log
+node_modules/
+private-storage/*
+!private-storage/.htaccess
+!private-storage/.gitkeep
+.DS_Store
